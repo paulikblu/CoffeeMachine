@@ -3,9 +3,9 @@ from Menu import MENU, resources
 working = True
 
 def report(water, milk, coffee, money):
-    print(f"""water:{water}
-milk:{milk}
-coffee:{coffee}
+    print(f"""water:{water}ml
+milk:{milk}ml
+coffee:{coffee}g
 money:{money}$""")
 
 def checking_resources(drink_type, water, coffee, milk):
